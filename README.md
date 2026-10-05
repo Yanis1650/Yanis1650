@@ -7,7 +7,7 @@
 I build reliable data pipelines, backend services and WebGIS applications —<br/>
 from raw territorial data to production-ready tools used every day.
 
-📍 Rennes, France · Relocating to Lausanne, Switzerland (2027)<br/>
+📍 Rennes, France<br/>
 🗣️ French (native) · English (working proficiency)
 
 <br/>
