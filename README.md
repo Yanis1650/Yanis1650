@@ -141,28 +141,4 @@ Data & Backend Engineer · Geospatial Data Specialist
                                                                         geospatial:
                                                                           - Spatial analysis
                                                                             - Vector tiles
-                                                                              - MapLibre
-                                                                                - QGIS
-                                                                                  - WebGIS
-
-                                                                                  frontend:
-                                                                                    - Vue.js
-                                                                                      - JavaScript
-                                                                                        - TypeScript
-                                                                                          - Vite
-
-                                                                                          ---
-
-                                                                                          GitHub
-
-                                                                                          <div align="center"><img height="165" src="https://github-readme-stats.vercel.app/api?username=Yanis1650&show_icons=true&hide_border=true&rank_icon=github" /><img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yanis1650&layout=compact&hide_border=true" /></div>---
-
-                                                                                          <div align="center">Build data. Understand space. Ship useful systems.
-
-                                                                                          <br/><a href="https://portfolio.drekky.fr/">
-                                                                                            portfolio.drekky.fr
-                                                                                            </a><br/><br/>
-
-                                                                                            <sub>
-                                                                                            Python · PostgreSQL · PostGIS · Backend · Data Engineering · WebGIS · Geospatial
-                                                                                            </sub></div>
+                                                                              
