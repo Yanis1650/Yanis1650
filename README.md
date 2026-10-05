@@ -2,9 +2,13 @@
 
 # Yanis Lepesant
 
-### Data & Backend Engineer · Geospatial Data Specialist
+**Data & Backend Engineer · Geospatial**
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=3000&pause=900&color=3B82F6&center=true&vCenter=true&width=700&lines=Python+%C2%B7+PostgreSQL+%C2%B7+PostGIS;Data+Engineering+%C2%B7+Backend+%C2%B7+WebGIS;Building+reliable+spatial+data+systems" alt="Python · PostgreSQL · PostGIS — Data Engineering · Backend · WebGIS" />
+I build reliable data pipelines, backend services and WebGIS applications —<br/>
+from raw territorial data to production-ready tools used every day.
+
+📍 Rennes, France · Relocating to Lausanne, Switzerland (2027)<br/>
+🗣️ French (native) · English (working proficiency)
 
 <br/>
 
@@ -15,145 +19,66 @@
 
 ---
 
-## About me
+## Selected work
 
-I design and build **data pipelines, backend services and geospatial applications** — from raw datasets to production-ready spatial systems.
+### Territorial data pipeline platform — AUDIAR
+*Rennes urban planning agency · 2024 – present*
+
+Migration of a legacy ETL estate to Python, with a web application to run and monitor every data flow.
+
+- **180 Pentaho jobs → 40 Python pipelines**, orchestrated from a FastAPI + HTMX control app
+- Sources: PostgreSQL/PostGIS, public APIs, national statistics files (INSEE)
+- 3 environments with anomaly detection and a controlled **DEV → PROD** deployment path
+- Updating a full territorial observatory now takes **one day**, fully automated
 
 ```mermaid
 flowchart LR
-    A[Data sources] --> B[Python ETL]
+    A[Public APIs · INSEE · files] --> B[Python pipelines]
     B --> C[(PostgreSQL / PostGIS)]
-    C --> D[Backend / API]
-    D --> E[Vector tiles]
-    D --> F[Data visualization]
-    E --> G[WebGIS]
+    B -.-> M[Monitoring & anomaly detection]
+    C --> D[FastAPI]
+    D --> E[Observatories & WebGIS]
 ```
 
-I care about **reliability, maintainability and data quality** more than hype.
+### AudioFlow — internal transcription tool — AUDIAR
+
+Speech-to-text and meeting summaries for the agency's teams, built with **Vue 3 + FastAPI** on European models (Mistral Voxtral, Mistral Large). Presented internally to staff.
+
+### Interactive subdivision plan — Drekky Studio *(in progress)*
+
+WebGIS demo of an interactive housing-plot layout for a private developer: **MapLibre, PostGIS, vector tiles**.
 
 ---
 
-## Core stack
+## Background
 
-<div align="center">
-
-**Data & Backend**
-
-<img src="https://skillicons.dev/icons?i=python,fastapi,postgres,nodejs" alt="Python, FastAPI, PostgreSQL, Node.js" />
-
-<img src="https://img.shields.io/badge/DuckDB-FFF000?style=for-the-badge&logo=duckdb&logoColor=black" alt="DuckDB" />
-<img src="https://img.shields.io/badge/Polars-CD792C?style=for-the-badge&logo=polars&logoColor=white" alt="Polars" />
-
-<br/><br/>
-
-**Web & Frontend**
-
-<img src="https://skillicons.dev/icons?i=vue,nuxtjs,ts,vite" alt="Vue, Nuxt, TypeScript, Vite" />
-
-<br/><br/>
-
-**Infrastructure**
-
-<img src="https://skillicons.dev/icons?i=docker,linux,git,github" alt="Docker, Linux, Git, GitHub" />
-
-<br/><br/>
-
-**Geospatial**
-
-<img src="https://img.shields.io/badge/PostGIS-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostGIS" />
-<img src="https://img.shields.io/badge/QGIS-589632?style=for-the-badge&logo=qgis&logoColor=white" alt="QGIS" />
-<img src="https://img.shields.io/badge/MapLibre-396CB2?style=for-the-badge&logo=maplibre&logoColor=white" alt="MapLibre" />
-<img src="https://img.shields.io/badge/GeoJSON-5B5B5B?style=for-the-badge" alt="GeoJSON" />
-<img src="https://img.shields.io/badge/Vector_Tiles-111827?style=for-the-badge" alt="Vector Tiles" />
-
-</div>
+- **Applications Lead**, AUDIAR (Rennes) — since Dec. 2024, previously GIS / WebGIS engineer
+- **WebGIS developer**, Modaal (Lyon) — real-estate data visualization
+- **Founder**, Drekky Studio — websites for craftsmen & freelance geospatial engineering
+- **MSc Geomatics**, Université Rennes 2
 
 ---
 
-## What I build
+## Stack
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🔄 Data pipelines
-
-ETL and data-processing workflows with **Python, SQL and PostgreSQL/PostGIS**.
-
-- automation & reproducibility
-- data quality
-- maintainability
-- performance
-
-</td>
-<td width="50%" valign="top">
-
-### ⚙️ Backend & APIs
-
-Services that expose and process structured and spatial data.
-
-- API design
-- SQL optimization
-- database architecture
-- business logic & data delivery
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🗺️ WebGIS
-
-Interactive geospatial applications with **MapLibre, vector tiles and spatial APIs**.
-
-- dynamic maps & spatial interaction
-- large datasets
-- territorial analysis
-- data visualization
-
-</td>
-<td width="50%" valign="top">
-
-### 📊 Data monitoring
-
-Tools to monitor and maintain data infrastructure.
-
-- database dependencies
-- freshness monitoring
-- anomaly detection
-- metadata & quality control
-
-</td>
-</tr>
-</table>
+| Area | Tools |
+|---|---|
+| Data & Backend | Python · FastAPI · PostgreSQL / PostGIS · DuckDB · Polars · SQL |
+| Geospatial | PostGIS · QGIS · MapLibre GL · vector tiles · GeoJSON |
+| Frontend | Vue 3 · Nuxt · TypeScript · Vite |
+| Infrastructure | Docker · Traefik · Linux (self-hosted VPS) · Git · CI/CD |
 
 ---
 
-## GitHub
+## How I work
 
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Yanis1650&show_icons=true&hide_border=true&rank_icon=github&theme=github_dark&cache_seconds=86400" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Yanis1650&show_icons=true&hide_border=true&rank_icon=github&cache_seconds=86400" alt="GitHub stats" />
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Yanis1650&layout=compact&hide_border=true&theme=github_dark&cache_seconds=86400" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yanis1650&layout=compact&hide_border=true&cache_seconds=86400" alt="Top languages" />
-</picture>
-
-</div>
+- **Reliability first** — reproducible pipelines, separate environments, controlled releases
+- **Data quality is a feature** — freshness checks, anomaly detection, metadata
+- **Maintainable over clever** — code the next person can read, run and extend
+- **Data sovereignty** — self-hosting and European providers when it makes sense
 
 ---
 
 <div align="center">
-
-### Build data. Understand space. Ship useful systems.
-
-<a href="https://portfolio.drekky.fr/">portfolio.drekky.fr</a>
-
-<br/><br/>
-
-<sub>Python · PostgreSQL · PostGIS · Backend · Data Engineering · WebGIS · Geospatial</sub>
-
+<sub>Python · PostgreSQL · PostGIS · FastAPI · Data Engineering · WebGIS · Geospatial</sub>
 </div>
